@@ -1,0 +1,6 @@
+{
+  "name": "CompareNest - Electronics Comparison",
+  "description": "Compare smarter. Buy better. Production-ready bilingual electronics comparison platform for smartphones, laptops, tablets, headphones, smartwatches, and monitors.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

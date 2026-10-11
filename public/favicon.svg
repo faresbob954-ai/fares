@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="nexoraFaviconPillar" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#635BFF" />
+      <stop offset="100%" stop-color="#36BFFA" />
+    </linearGradient>
+    <linearGradient id="nexoraFaviconBridge" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#36BFFA" />
+      <stop offset="100%" stop-color="#635BFF" />
+    </linearGradient>
+  </defs>
+
+  <!-- Crisp rounded badge container -->
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="#111318" stroke="#E8EAF0" stroke-width="1.5" />
+  
+  <!-- Geometric N symbol -->
+  <g>
+    <!-- Left vertical pillar -->
+    <rect x="14" y="13" width="7.5" height="38" rx="3.75" fill="url(#nexoraFaviconPillar)" />
+    
+    <!-- Right vertical pillar -->
+    <rect x="42.5" y="13" width="7.5" height="38" rx="3.75" fill="url(#nexoraFaviconPillar)" />
+    
+    <!-- Diagonal connection bridge -->
+    <path d="M18 14.5 L46 49.5 H39 L14.5 18 C14 16 16 14.5 18 14.5 Z" fill="url(#nexoraFaviconBridge)" opacity="0.95" />
+    
+    <!-- Nodes -->
+    <circle cx="17.75" cy="16.75" r="3" fill="#36BFFA" />
+    <circle cx="46.25" cy="47.25" r="3" fill="#635BFF" />
+    <circle cx="32" cy="32" r="2" fill="#FFFFFF" />
+  </g>
+</svg>
